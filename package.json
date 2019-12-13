@@ -1,0 +1,16 @@
+{
+  "name": "test-hapi-pino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node . | pino-pretty"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "hapi-pino": "^6.3.0",
+    "pino-pretty": "^3.5.0"
+  }
+}
